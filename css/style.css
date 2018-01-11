@@ -118,3 +118,227 @@ font-family: 'Open Sans', sans-serif; */
 .sentinel .footer .second_section_list_sub {
 	padding: 70px;
 }
+.sentinel .hit_bc {
+	padding-top: 50px;
+}
+.sentinel .token_infodistri {
+	padding: 50px 0;
+}
+/* News letter css starts here */
+.sentinel .news_letter {
+	font-size:48px;
+	font-family:Open Sans;
+	text-align:center;
+	color:#f1f1f1;
+	margin-top:55px;
+	margin-bottom:23px;
+
+
+}
+.sentinel .sentinel_news_letter {
+    background: #20272f;
+}
+.sentinel .news {
+	color:#3192dd;
+	
+}
+.sentinel .news_text {
+	text-align:center;
+	font-size:18px;
+	font-family:Open Sans;
+	margin-bottom:48px;
+}
+.sentinel .news_text h3 {
+
+	color:#bdbec0;
+
+}
+.sentinel .email {
+	
+	width:40%;
+	display:inline-block;
+}
+.sentinel .form {
+	text-align:center;
+	margin-bottom:55px;
+	
+	
+}
+.form input[type="text"] {
+    height:55px;
+    width:330px;
+}
+.form .btn_width {
+	
+	padding: 18px 40px;
+    border-radius: 37px
+}
+/* News letter css ends here */
+/* Road map css start here */
+.sentinel .background_img {
+	position:relative;
+	
+	
+}
+
+.sentinel .footer_content {
+	
+	position:absolute;
+	
+	text-align:center;
+	
+	
+}
+.sentinel .background_img img {
+	width:100%;
+	
+}
+.sentinel .foot_logo img {
+	width:10%;
+	position:absolute;
+	top:0px;
+	
+}
+.sentinel .roadmap {
+	background:#d1d9e2;
+	font-family:Open Sans;
+	
+}
+.sentinel .sant_roodmap {
+	
+	margin:158px 0px 150px 0px;
+	
+}
+.sentinel .sant_roodmap h1{
+	text-align:center;
+	
+}
+.sentinel .devp  {
+	
+	color:#3192dd;
+}
+.sentinel .circle {
+	
+	text-align:center;
+	
+}
+.sentinel .circle_data {
+	text-align:center;
+	position:relative;
+	left:80px;
+	margin-bottom:50px;
+	padding: 0px 20px 0px -24px;
+	
+
+}
+.sentinel .circle_data_info {
+	
+	padding-top:23px;
+	
+	
+}
+.sentinel .circle_data_info {
+		text-align:center;
+		position:relative;
+		left:80px;
+	
+}
+.sentinel .circle {
+	margin-bottom:50px;
+	
+}
+.sentinel .circle_data h2 {
+	font-size:24px;
+	font-family: Roboto Regular;
+	
+}
+.sentinel .top_space {
+	
+	padding-top:22px;
+	
+}
+.sentinel .bottom_space {
+	margin-bottom:235px;
+	
+	
+}
+/* Road map css ends here */
+/* Mvp Client Css */
+.sentinel .background {
+	background:#c6d0db;
+	
+	
+}
+.sentinel .nopadding {
+	
+	padding:0px;
+	
+}
+.sentinel .download_mvc_section h1 {
+	
+	
+	text-align:center;
+	font-size:48px;
+	font-family:Open Sans;
+	padding:90px 0px 76px 0px;
+	
+}
+.sentinel .blue_text {
+	color:#3192dd;
+	
+}
+.sentinel .section_icons {
+	
+	text-align:center;
+	
+}
+.sentinel .window {
+	display:inline-block;
+
+}
+.sentinel .peng {
+	display:inline-block;
+
+}
+
+	
+	
+.sentinel .section_icons ul li {
+	padding:0px 28px 0px 28px;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	margin:auto;
+	
+	
+}
+.sentinel .section_icons img {
+	margin-bottom:45px;
+	
+}
+.sentinel .windows_client h3 {
+	
+	text-align:center;
+	color:#000000;
+	text-decoration: underline;
+	font-family:Open Sans;
+	margin-bottom:42px;
+	font-size:24px;
+	
+	
+	
+	
+}
+.sentinel .linux_client h3 {
+	
+	text-align:center;
+	color:#000000;
+	text-decoration: underline;
+	font-family:Open Sans;
+	margin-bottom:104px;
+	font-size:24px;
+
+	
+	
+}
+/* Mvp Client Css Ends*/
