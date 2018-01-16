@@ -40,44 +40,73 @@ font-family: 'Open Sans', sans-serif; */
 	margin: auto;
 }
 .sentinel .main_head {
-	font-weight: 300;
+	font-weight: 400;
     line-height: 1.2;
 }
 .sentinel .first_sectiontitle {
-	color:#2796e9;
-  background: -webkit-linear-gradient(#2796e9, #2796e9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	color: #2796e9;
+    background: -webkit-linear-gradient(#2796e9, #88a3b7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
 }
 .sentinel .btn_submit {
-	background: transparent;
-    margin-left: 20px;
-    border-radius: 10px;
-    padding: 8px 25px;
+	    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #2796e9 0%, #88a3b7 100%);
+    border-image-slice: 1;
+    background: transparent;
+    padding: 10px 40px;
 }
+.sentinel .border-with-grad {
+      position: relative;
+    height: 50px;
+    width: 230px;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+}
+.sentinel .border-with-grad svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+.sentinel .border-with-grad path {
+  fill: transparent;
+  stroke: url(#border-gradient);
+  stroke-width: 4;
+}
+
 .sentinel .main_head_sub {
 	color: #d2d2d2;
     line-height: 1.5;
-    margin-top: 50px;
-    font-weight: 300;
+    margin-top: 30px;
+    font-weight: 400;
 }
 .sentinel .signup_section {
 	margin-top: 100px;
 }
 .sentinel .email_id {
-	    width: 40%;
+	    width: 250px;
+    height: 45px;
     display: inline-block;
+    border-radius: 2px;
 }
 .sentinel .darkcolor {
 	color: #43474b;
+	font-weight: 400;
 }
 .sentinel .skyblue_color {
-	color: #3192dd;
+	color: #2787e3;
 }
 .sentinel .second_section {
 	background: #d1d9e2;
-	padding: 50px 0;
-	padding-bottom: 0;
+    padding: 50px 0;
+    position: relative;
+    padding-bottom: 400px;
 }
 .sentinel .img_block {
 	display: inline-block;
@@ -89,31 +118,26 @@ font-family: 'Open Sans', sans-serif; */
     display: inline-block;
 }
 .sentinel .second_section_list_sub {
-	padding: 0 65px;
-	    padding-bottom: 50px;
+	    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+	    
 }
 .sentinel .blue_color {
 	color: #11375d;
-	    font-weight: 300;
+	    font-weight: 400;
 }
 .sentinel .sub_headp {
 	color: #66778e;
+	margin-bottom:0;
 	    line-height: 2.5;
 }
-.sentinel .footer {
-    display: table;
-    position: relative;
-    background-image: url(../img/footer.png);
-    background-size: cover;
-    color: #d2d2d2;
-    width: 100%;
-}
-.sentinel .footer_logo_sec {
-	width: 200px;
-}
 .sentinel .fo_secmargin {
-	    margin-bottom: 20px;
+	  margin-bottom: 25px;
     line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0;
 }
 .sentinel .footer .second_section_list_sub {
 	padding: 70px;
@@ -123,20 +147,19 @@ font-family: 'Open Sans', sans-serif; */
 }
 .sentinel .token_infodistri {
 	padding: 50px 0;
+	    color: #fff;
 }
 /* News letter css starts here */
 .sentinel .news_letter {
 	font-size:48px;
 	font-family:Open Sans;
 	text-align:center;
-	color:#f1f1f1;
+	color: #43474b;
 	margin-top:55px;
 	margin-bottom:23px;
-
-
 }
 .sentinel .sentinel_news_letter {
-    background: #20272f;
+       background: #c6d0db;
 }
 .sentinel .news {
 	color:#3192dd;
@@ -150,8 +173,15 @@ font-family: 'Open Sans', sans-serif; */
 }
 .sentinel .news_text h3 {
 
-	color:#bdbec0;
+	color: #07172d;
 
+}
+.sentinel .news_submit {
+	padding: 15px 50px;
+    background: #2787e3;
+    border: 0;
+    margin-left: 20px;
+    border-radius: 30px;
 }
 .sentinel .email {
 	
@@ -167,6 +197,7 @@ font-family: 'Open Sans', sans-serif; */
 .form input[type="text"] {
     height:55px;
     width:330px;
+	    text-align: center;
 }
 .form .btn_width {
 	
@@ -274,47 +305,44 @@ font-family: 'Open Sans', sans-serif; */
 	padding:0px;
 	
 }
-.sentinel .download_mvc_section h1 {
-	
-	
-	text-align:center;
-	font-size:48px;
-	font-family:Open Sans;
-	padding:90px 0px 76px 0px;
+.sentinel .download_mvc_section h2 {
+	text-align: center;
+	font-weight: 400;
+    padding: 220px 0px 35px 0px;
 	
 }
 .sentinel .blue_text {
 	color:#3192dd;
-	
 }
 .sentinel .section_icons {
-	
 	text-align:center;
 	
 }
 .sentinel .window {
 	display:inline-block;
-
 }
 .sentinel .peng {
 	display:inline-block;
-
-}
-
-	
-	
+}	
 .sentinel .section_icons ul li {
 	padding:0px 28px 0px 28px;
 	list-style:none;
 	display:inline-block;
 	text-align:center;
 	margin:auto;
-	
-	
 }
-.sentinel .section_icons img {
-	margin-bottom:45px;
-	
+.sentinel .icons {
+	margin-bottom: 20px;
+}
+.sentinel .dowload_clientsoftware a{
+	color:#000;
+	text-decoration: underline	
+}
+.sentinel .dowload_clientsoftware h3{
+	font-weight: 400;
+}
+.sentinel .dowload_clientsoftware  {
+	    margin: 40px 0 100px 0;
 }
 .sentinel .windows_client h3 {
 	
@@ -342,3 +370,115 @@ font-family: 'Open Sans', sans-serif; */
 	
 }
 /* Mvp Client Css Ends*/
+/* Github Activity section starts here */
+	.sentinel ul.tiles {
+		text-align: center;
+		width: 85%;
+		margin: 0 auto;
+		list-style-type: none;
+		padding: 0;
+	}
+	.sentinel ul.tiles h2 {
+		color: #fff;
+		margin: 0;
+		    font-weight: 400;
+	}
+	.sentinel ul.tiles li {
+		display: inline-block;
+		background: transparent;
+		text-align: center;
+		line-height: 50px;
+		margin: 0px;
+		padding: 30px 50px;
+		
+	}
+	.sentinel ul.tiles li h1{
+		margin-top:0px;
+		background: -webkit-linear-gradient(#77bdd6, #7cacbd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #77bdd6;
+		
+	}
+	.sentinel .github_activity {
+		background: #22282f;
+		 color: #fff;
+		     text-align: center;
+		 padding: 50px 0 55px 0;
+	}
+	.sentinel .github_des {
+		font-weight:400;
+		margin: 0;
+	}
+/* Github Activity section Ends here */
+/* Trust less design css starts here */
+.sentinel .heading_vpn {
+	margin-top: 40px;
+}
+.sentinel .sentinetal_img {
+	position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -200px;
+}
+/* Trust less design css ends here */
+/* Token Info and Distribution css starts here */
+.sentinel .fourth_section {
+	background: #272e36;
+}
+/* Token Info and Distribution css Ends here */
+/* Roadmap css starts here */
+.sentinel .fifth_section {
+	background: #22282f;
+}
+.sentinel .roadmap_head {
+	margin-top: 0;
+	font-weight: 400;
+}
+.sentinel .roadmap_sectionhead h5{
+	font-weight: 400;
+}
+/* Roadmap css ends here */
+/* development roadmap starts here */
+.sentinel .sub_heading_main {
+	margin-top: 50px;
+}
+.sentinel .blue_color {
+	color: #80defb;
+}
+/* development roadmap ends here */
+/* Footer section css starts here */
+.sentinel .footer_list{
+	text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+.sentinel .footer_list li{
+	display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+    padding: 0px;
+}
+.sentinel .footer_section {
+	background: #171819;
+	padding: 30px 0;
+}
+.sentinel .copyright {
+	color: #fff;
+	    margin-top: 10px;
+    margin-bottom: 0;
+}
+.sentinel .nav-menu.footer_list{
+	text-align: center;
+    float: right;
+	width: auto;
+	margin-top: -10px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+/* Footer section css ends here */
