@@ -444,7 +444,7 @@ font-family: 'Open Sans', sans-serif; */
 .sentinel .sub_heading_main {
 	margin-top: 50px;
 }
-.sentinel .blue_color {
+.sentinel .sky_blue_color {
 	color: #80defb;
 }
 /* development roadmap ends here */
@@ -482,3 +482,139 @@ font-family: 'Open Sans', sans-serif; */
     padding: 0;
 }
 /* Footer section css ends here */
+@media screen and (max-width:768px) {
+		.sentinel .nav-menu.footer_list {
+		display: none;
+	}
+	.sentinel .first_section_div {
+		width: 80%;
+		margin: auto;
+	}
+	.sentinel .first_section {
+		padding: 80px 0;
+	}
+	.sentinel .signup_section {
+		margin-top: 25px;
+	}
+	.sentinel .border-with-grad {
+		margin-top: 25px;
+	}
+	.sentinel #header {
+		height: 75px;
+	}
+	.sentinel .logo {
+		width: 125px;
+	}
+	.sentinel .github_activity {
+		padding: 25px 0 55px 0;
+	}
+	.sentinel ul.tiles h2 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.sentinel .main_head {
+		font-size: 16px;
+	}
+	.sentinel ul.tiles li {
+		padding: 10px 20px;
+	}
+	.sentinel .github_des {
+		width: 80%;
+		margin: auto;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.sentinel .github_activity {
+		padding: 25px 0 30px 0;
+	}
+	.sentinel .darkcolor {
+		font-size: 20px;
+		line-height: 1.5;
+		margin: 0;
+	}
+	.sentinel .second_section {
+		background: #d1d9e2;
+		padding: 25px 0;
+		position: relative;
+		padding-bottom: 400px;
+	}
+	.sentinel .second_section_list_sub {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 25px
+	}
+	.sentinel .second_section_list {
+		width: 100%;
+	}
+	.sentinel .heading_vpn {
+		margin-top: 25px;
+		font-size: 16px;
+	}
+	.sentinel .sub_headp {
+		line-height: 2;
+		font-size: 14px;
+	}
+	.sentinel .sentinetal_img {
+		position: absolute;
+		right: 0;
+		left: 0;
+		margin: auto;
+		bottom: -80px;
+		width: 200px;
+	}
+	.sentinel .second_section {
+		background: #d1d9e2;
+		padding: 25px 0;
+		padding-bottom: 25px;
+		position: relative;
+		padding-bottom: 140px;
+	}
+	.sentinel .download_mvc_section h2 {
+		text-align: center;
+		font-weight: 400;
+		padding: 100px 0px 35px 0px;
+		font-size: 20px;
+	}
+	.sentinel .icons {
+		margin-bottom: 20px;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.sentinel .dowload_clientsoftware h3 {
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.sentinel .fo_secmargin {
+		font-size: 20px;
+	}
+	.sentinel .roadmap_head {
+		margin-top: 0;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.sentinel .news_letter h1 {
+		font-size: 20px;
+	}
+	.sentinel .news_text h3 {
+		font-size: 16px;
+	}
+	.form input[type="text"] {
+		height: 55px;
+		width: 280px;
+		text-align: center;
+		display: block;
+		margin: auto;
+	}
+	.sentinel .news_submit {
+		margin-top: 25px;
+		margin-left: 0;
+	}
+	
+	
+}
+@media screen and (max-width:1199px) {
+	.sentinel .first_section_div {
+    width: 85%;
+    margin: auto;
+}
+}
