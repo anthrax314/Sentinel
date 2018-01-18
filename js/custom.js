@@ -10,4 +10,9 @@ jQuery(document).ready(function( $ ) {
       $('#header').removeClass('header-fixed');
     }
   });
+  $(".arrow").click(function() {
+                    $('html, body').animate({
+                        scrollTop: $("#next_section").offset().top + -100
+                    }, 500);
+                });
   });
