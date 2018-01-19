@@ -11,8 +11,13 @@ jQuery(document).ready(function( $ ) {
     }
   });
   $(".arrow").click(function() {
-                    $('html, body').animate({
-                        scrollTop: $("#next_section").offset().top + -100
-                    }, 500);
-                });
+			$('html, body').animate({
+				scrollTop: $("#next_section").offset().top + -100
+			}, 500);
+		});
+		$(".sign_up").mouseover(function(){
+			
+        $(".cls-1").css("background-color", "#1c2836");
+        });
   });
+  
