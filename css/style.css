@@ -824,6 +824,55 @@
          margin-left: 0;
     }
 }
+@media screen and (min-width:769px) and (max-width:1300px){
+	.sentinel .logo {
+			width: 75%;
+	}
+	.sentinel .main_head {
+		font-size: 28pt;
+	}
+	.sentinel .first_section {
+		margin-top: 100px;
+		width: 80%;
+	}
+	.sentinel .main_head_sub {
+		font-size: 14pt;
+	}
+	.sentinel ul.tiles li {
+		padding: 30px 20px;
+	}
+	.sentinel .section_head {
+		font-size: 26pt;
+	}
+	.sentinel .blue_color_head {
+		font-size: 26pt;
+	}
+	.sentinel .heading_vpn {
+		font-size: 16pt;
+	}
+	.sentinel .section_icons ul li {
+		padding: 28px 15px 0px 0px;
+	}
+	.sentinel #header {
+		padding: 30px 0;
+		height: 100px;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		transition: all 0.5s;
+		z-index: 997;
+	}
+	.sentinel .nav-menu.footer_list {
+		text-align: center;
+		float: right;
+		width: auto;
+		margin-top: -65px;
+		list-style-type: none;
+		padding: 0;
+	}
+	
+}
 .sentinel .padding_none {
 	padding:0px;
 }
