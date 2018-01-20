@@ -485,7 +485,7 @@
      padding: 0;
 }
  .sentinel ul.tiles h2 {
-     color: #fff;
+     color: #d1d9e2;
      margin: 0;
      font-weight: 400;
 }
@@ -649,6 +649,9 @@
          margin-top: 15px;
 		 display: none;
     }
+	.sentinel .first_section {
+		width: 100%;
+	}
      .sentinel #logo {
          display: block;
     }
@@ -659,10 +662,9 @@
 		font-size: 12pt;
 	}
      .sentinel .first_section_div {
-         width: 90%;
          margin: auto;
          position: relative;
-         padding: 30px 0;
+         padding: 30px;
          padding-bottom: 25px;
     }
      .sentinel .signup_section {
@@ -833,7 +835,7 @@
 	}
 	.sentinel .first_section {
 		margin-top: 100px;
-		width: 80%;
+		width: 100%;
 	}
 	.sentinel .main_head_sub {
 		font-size: 14pt;
@@ -872,6 +874,14 @@
 		padding: 0;
 	}
 	
+}
+@media screen and (min-width:1400px) { 
+		.sentinel .main_head {
+			font-size: 46pt;
+		}
+		.sentinel .fo_secmargin {
+			font-size: 36pt;
+		}
 }
 .sentinel .padding_none {
 	padding:0px;
