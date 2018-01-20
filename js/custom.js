@@ -2,7 +2,7 @@ jQuery(document).ready(function( $ ) {
 
   // Header fixed and Back to top button
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 50) {
       
       $('#header').addClass('header-fixed');
     } else {

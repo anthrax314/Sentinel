@@ -6,6 +6,9 @@
  .font_opensans {
      font-family: 'Open Sans', sans-serif;
 }
+.sentinel {
+    background-color: #1e2021;
+}
  #header.header-fixed {
      background: #20272e;
      padding: 20px 0;
@@ -14,27 +17,24 @@
 }
  .sentinel #logo {
      display: inline-block;
+    margin-top: -2px;
 }
  .sentinel .token_head {
      margin-bottom: 20px;
 }
  .sentinel .first_section {
-     display: table;
-     position: relative;
-     background: url(../img/map.jpg) no-repeat center center;
-     padding: 10% 0;
-     color: #d2d2d2;
-     width: 100%;
-     height: 100vh;
-     padding-bottom: 0px;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
+	
+	display: table;
+    width: 70%;
+	margin:auto;
+    height: 100vh;
+    background: url(../img/map.png) top center;
+    background-size: cover;
+	 margin-top: 50px;
 }
  .sentinel #header {
      padding: 30px 0;
-     height: 100px;
+         height: 127px;
      position: fixed;
      left: 0;
      top: 0;
@@ -43,15 +43,21 @@
      z-index: 997;
 }
  .sentinel .logo {
-     width: 200px;
+     width: 100%;
 }
  .sentinel .first_section_div{
-     margin: auto;
+    
+    display: table-cell;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
 }
  .sentinel .main_head {
      font-weight: 400;
      line-height: 1.2;
-	 font-size: 48pt;
+	 color:#ececec;
+	 font-size: 36pt;
 }
  .sentinel .sky_blue_color a {
      text-decoration: underline;
@@ -97,7 +103,7 @@
 	font-weight: 400;
 }
 .sentinel .activity_count {
-	font-size: 48pt;
+	font-size: 36pt;
 }
  .sentinel .cls-1 {
      fill: transparent;
@@ -117,7 +123,7 @@
      color: #d2d2d2;
      line-height: 1.5;
      margin-top: 30px;
-	 font-size: 18pt;
+	 font-size: 16pt;
      font-weight: 400;
 }
  .sentinel .signup_section {
@@ -139,7 +145,7 @@
     margin: auto;
 }
 .sentinel .list_subhead {
-	font-size: 18pt;
+	font-size: 16pt;
 }
 .sentinel .list_subhead.li_headit {
 	color: #cfcfcf;
@@ -181,7 +187,7 @@
 }
 .sentinel .blue_color_head {
      color: #11375d;
-	 font-size: 48pt;
+	 font-size: 30pt;
 	     font-weight: 400;
 }
  .sentinel .sub_headp {
@@ -196,11 +202,11 @@
     color: #fff;
     font-weight: 400;
     margin-top: 10px;
-    font-size: 36pt;
+    font-size: 30pt;
 }
 .sentinel .subint.li_headit {
 	color: #cfcfcf;
-	font-size: 18pt;
+	font-size: 16pt;
 }
  .sentinel .section_head {
          font-size: 30pt;
@@ -512,6 +518,7 @@
 /* Trust less design css starts here */
  .sentinel .heading_vpn {
      margin-top: 40px;
+	     font-size: 20pt;
      font-weight: 400;
 }
  .sentinel .sentinetal_img {
@@ -534,11 +541,11 @@
  .sentinel .roadmap_head {
      margin-top: 0;
      font-weight: 400;
-	 font-size: 36pt;
+	 font-size: 30pt;
 }
  .sentinel .roadmap_sectionhead h5{
      font-weight: 400;
-    font-size: 18pt;
+    font-size: 16pt;
     color: #cfcfcf;
     margin-top: 25px;
 }
@@ -580,11 +587,11 @@
 }
  .sentinel .nav-menu.footer_list{
      text-align: center;
-     float: right;
-     width: auto;
-     margin-top: -50px;
-     list-style-type: none;
-     padding: 0;
+    float: right;
+    width: auto;
+    margin-top: -68px;
+    list-style-type: none;
+    padding: 0;
 }
 /* Footer section css ends here */
  /* @media screen and (min-width:1400px) {
@@ -640,6 +647,7 @@
      .sentinel .nav-menu.footer_list {
          float: none;
          margin-top: 15px;
+		 display: none;
     }
      .sentinel #logo {
          display: block;
@@ -647,11 +655,14 @@
      .sentinel .arrow {
          display: none;
     }
+	.sentinel .subint.li_headit {
+		font-size: 12pt;
+	}
      .sentinel .first_section_div {
          width: 90%;
          margin: auto;
          position: relative;
-         padding: 100px 0;
+         padding: 30px 0;
          padding-bottom: 25px;
     }
      .sentinel .signup_section {
@@ -661,24 +672,52 @@
          margin-top: 25px;
     }
      .sentinel #header {
-         height: 150px;
+             height: 90px;
     }
      .sentinel .logo {
-         width: 125px;
+        width: 170px;
          margin: auto;
     }
      .sentinel .github_activity {
          padding: 25px 0 55px 0;
     }
      .sentinel ul.tiles h2 {
-         font-size: 20px;
-         margin-bottom: 10px;
+         font-size: 22px;
+		margin-bottom: 10px;
     }
+	.sentinel .blue_color_head {
+		font-size: 22px;
+		line-height: 1.5;
+		margin: 0;
+	}
+	.sentinel .wallet_list {
+		padding: 0;	
+	}
+	.sentinel .section_icons ul li {
+		padding: 28px 15px 0px 0px;
+	}
+	.sentinel .wallet_des {
+		font-size: 14px;
+	}
+	.sentinel .token_infodistri {
+		padding: 50px 0;
+	}
+	
+	.sentinel .git_hubsource {
+		font-size: 12pt;
+		margin: 35px 0 50px;
+	}
+	.sentinel .main_head_sub {
+		font-size: 14pt;
+	}
+	.sentinel ul.tiles {
+		width: 100%;
+	}
      .sentinel .main_head {
-         font-size: 16px;
+         font-size: 24px;
     }
      .sentinel ul.tiles li {
-         padding: 10px 20px;
+         padding: 10px 15px;
     }
      .sentinel .github_des {
          width: 80%;
@@ -710,7 +749,7 @@
     }
      .sentinel .heading_vpn {
          margin-top: 25px;
-         font-size: 16px;
+         font-size: 18px;
     }
      .sentinel .sub_headp {
          line-height: 2;
@@ -732,10 +771,7 @@
          padding-bottom: 140px;
     }
      .sentinel .download_mvc_section h2 {
-         text-align: center;
-         font-weight: 400;
-         padding: 100px 0px 35px 0px;
-         font-size: 20px;
+        padding: 100px 0px 0px 0px;
     }
      .sentinel .icons {
          margin-bottom: 20px;
@@ -747,13 +783,29 @@
          font-size: 20px;
     }
      .sentinel .fo_secmargin {
-         font-size: 20px;
+         font-size: 22px;
     }
      .sentinel .roadmap_head {
          margin-top: 0;
          font-weight: 400;
-         font-size: 20px;
+         font-size: 22px;
+		 line-height: 1.3;
     }
+	.sentinel .list_subhead {
+		font-size: 12pt;
+	}
+	.sentinel .sentinel_news_letter {
+		padding: 50px 0;
+		line-height: 1.5;
+	}
+	.sentinel .news_letter h1 {
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.sentinel .roadmap_sectionhead h5 {
+		font-size: 12pt;
+		line-height: 1.5;
+	}
      .sentinel .news_letter h1 {
          font-size: 20px;
     }
@@ -771,4 +823,7 @@
          margin-top: 25px;
          margin-left: 0;
     }
+}
+.sentinel .padding_none {
+	padding:0px;
 }
