@@ -22,6 +22,30 @@
  .sentinel .token_head {
      margin-bottom: 20px;
 }
+.sentinel .footer_list li a {
+    float: left;
+    height: 48px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 48px;
+    background: url(../img/social_sprite.png);
+}
+.sentinel .footer_list #github {
+    transition: all 0.5s ease-in-out;
+    background-position: 0px 0px;
+}
+.sentinel .footer_list #telegram {
+    transition: all 0.5s ease-in-out;
+    background-position: -61px 0px;
+}
+.sentinel .footer_list #twitter {
+    transition: all 0.5s ease-in-out;
+    background-position: -122px 0px;
+}
+.sentinel .footer_list #facebook {
+    transition: all 0.5s ease-in-out;
+    background-position: -183px 0px;
+}
  .sentinel .first_section {
 	
 	display: table;
@@ -521,7 +545,7 @@
 	     font-size: 20pt;
      font-weight: 400;
 }
- .sentinel .sentinetal_img {
+ .sentinel .sentinel_img {
      position: absolute;
      right: 0;
      left: 0;
@@ -757,7 +781,7 @@
          line-height: 2;
          font-size: 14px;
     }
-     .sentinel .sentinetal_img {
+     .sentinel .sentinel_img {
          position: absolute;
          right: 0;
          left: 0;
