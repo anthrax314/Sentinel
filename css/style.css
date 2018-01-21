@@ -21,6 +21,25 @@
 }
  .sentinel .token_head {
      margin-bottom: 20px;
+}.sentinel .wallet_list li div {
+   height: 60px;
+    margin: auto;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 52px;
+    background: url(../img/desktop_wallet_icons.png);
+}
+.sentinel .wallet_list #apple {
+    transition: all 0.5s ease-in-out;
+    background-position: 0px 0px;
+}
+.sentinel .wallet_list #windows {
+    transition: all 0.5s ease-in-out;
+        background-position: -64px 0px;
+}
+.sentinel .wallet_list #linux {
+    transition: all 0.5s ease-in-out;
+   background-position: 52px 0px;
 }
 .sentinel .footer_list li a {
     float: left;
@@ -228,6 +247,9 @@
     font-weight: 400;
     margin-top: 10px;
     font-size: 30pt;
+}
+.sentinel .li_headit.sky_blue_color.text_hover a:hover {
+	color:#00a2ff;
 }
 .sentinel .subint.li_headit {
 	color: #cfcfcf;
@@ -614,7 +636,7 @@
      text-align: center;
     float: right;
     width: auto;
-    margin-top: -68px;
+    margin-top: -66px;
     list-style-type: none;
     padding: 0;
 }
@@ -672,10 +694,11 @@
      .sentinel .nav-menu.footer_list {
          float: none;
          margin-top: 15px;
-		 display: none;
+		 
     }
 	.sentinel .first_section {
 		width: 100%;
+		    margin-top: 130px;
 	}
      .sentinel #logo {
          display: block;
@@ -700,6 +723,7 @@
     }
      .sentinel #header {
              height: 90px;
+			 height: 150px;
     }
      .sentinel .logo {
         width: 170px;
@@ -859,8 +883,8 @@
 		font-size: 28pt;
 	}
 	.sentinel .first_section {
-		margin-top: 100px;
-		width: 100%;
+		margin-top: 70px;
+		width: 90%;
 	}
 	.sentinel .main_head_sub {
 		font-size: 14pt;
@@ -894,7 +918,7 @@
 		text-align: center;
 		float: right;
 		width: auto;
-		margin-top: -65px;
+		margin-top: -60px;
 		list-style-type: none;
 		padding: 0;
 	}
@@ -902,12 +926,19 @@
 }
 @media screen and (min-width:1400px) { 
 		.sentinel .main_head {
-			font-size: 46pt;
+			font-size: 42pt;
 		}
 		.sentinel .fo_secmargin {
 			font-size: 36pt;
 		}
+		.sentinel .first_section {
+			margin-top: 0;
+		}
 }
 .sentinel .padding_none {
 	padding:0px;
+}
+.sentinel a:hover, .sentinel a:focus {
+    color: transparnt;
+    text-decoration: none;
 }
